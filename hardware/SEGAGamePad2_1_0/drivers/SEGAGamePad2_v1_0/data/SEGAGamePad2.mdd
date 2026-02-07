@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER SEGAGamePad2
+	OPTION supported_peripherals = (SEGAGamePad2);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = SEGAGamePad2;
+END DRIVER
